@@ -29,17 +29,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left / Main Content (7 cols) */}
           <div className="lg:col-span-7 flex flex-col items-start space-y-6">
-            {/* Academic Status Badge */}
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-zinc-100 dark:bg-white/[0.03] border border-zinc-200 dark:border-white/[0.08] text-xs font-mono text-zinc-700 dark:text-zinc-300">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
-              <span className="text-zinc-800 dark:text-zinc-200 font-medium">5th Semester</span>
-              <span className="text-zinc-400 dark:text-zinc-600">/</span>
-              <span className="text-zinc-600 dark:text-zinc-400">B.Tech CSE (Data Science)</span>
-            </div>
-
             {/* Main Heading */}
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-zinc-950 dark:text-white font-sans">
@@ -134,7 +123,7 @@ export default function Hero() {
                 <div className="flex items-center justify-between px-3.5 py-2 border-b border-zinc-200 dark:border-white/[0.07] bg-zinc-50 dark:bg-black/40 font-mono text-[11px] text-zinc-600 dark:text-zinc-400">
                   <span className="flex items-center gap-1.5">
                     <span className="h-1.5 w-1.5 rounded-full bg-sky-500"></span>
-                    <span>sayon_profile</span>
+                    <span>Sayon Ghosh</span>
                   </span>
                   <span className="text-zinc-500 dark:text-zinc-600 text-[10px]">CSE </span>
                 </div>
@@ -142,16 +131,15 @@ export default function Hero() {
                 {/* Photo viewport */}
                 <div className="relative aspect-[4/5] w-full bg-zinc-100 dark:bg-[#0a0c12] flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/images/profile.jpg"
+                    src="/images/Myimge.jpg"
                     alt="Sayon - Computer Science and Engineering Student"
                     width={400}
                     height={500}
                     priority
                     onLoad={() => setImageLoaded(true)}
                     onError={() => setImageError(true)}
-                    className={`w-full h-full object-cover transition-opacity duration-500 ${
-                      imageLoaded && !imageError ? "opacity-100" : "opacity-90"
-                    }`}
+                    className={`w-full h-full object-cover object-top transition-opacity duration-500 ${imageLoaded && !imageError ? "opacity-100" : "opacity-90"
+                      }`}
                   />
 
                   {/* Editorial fallback layer when custom photo is not yet dropped in */}
@@ -180,7 +168,7 @@ export default function Hero() {
                 {/* Bottom caption footer */}
                 <div className="px-3.5 py-2.5 border-t border-zinc-200 dark:border-white/[0.07] bg-zinc-50 dark:bg-black/40 flex items-center justify-between text-xs font-mono text-zinc-600 dark:text-zinc-400">
                   <span>Brainware University</span>
-                  <span className="text-sky-600 dark:text-sky-400 text-[11px] font-medium">5th Sem</span>
+                  <span className="text-sky-600 dark:text-sky-400 text-[11px] font-medium">Portfolio</span>
                 </div>
               </div>
             </div>

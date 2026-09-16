@@ -55,7 +55,7 @@ export default function Navbar() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
           </span>
           <span className="font-mono text-base font-medium tracking-normal text-zinc-900 dark:text-zinc-100 group-hover:text-sky-600 dark:group-hover:text-white transition-colors">
-            Sayon
+            Sayon Ghosh
           </span>
           
         </a>

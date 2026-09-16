@@ -8,7 +8,7 @@ export default function Contact() {
 
   const handleCopyEmail = (e: React.MouseEvent) => {
     e.preventDefault();
-    navigator.clipboard.writeText("sayon@example.com");
+    navigator.clipboard.writeText("sayonghosh8768@gmail.com");
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -45,9 +45,9 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {/* Card 1: Phone */}
           <a
-            href="tel:+91XXXXXXXXXX"
+            href="tel:+918927227071"
             className="group p-6 rounded-2xl bg-white dark:bg-white/[0.02] border border-zinc-200 dark:border-white/[0.08] hover:border-sky-500/50 dark:hover:border-sky-400/40 hover:bg-zinc-50/60 dark:hover:bg-white/[0.04] shadow-sm shadow-zinc-200/40 dark:shadow-none transition-all duration-200 flex flex-col justify-between"
-            aria-label="Call Sayon at phone placeholder"
+            aria-label="Call Sayon at +91 89272 27071"
           >
             <div>
               <div className="flex items-center justify-between mb-4">
@@ -66,7 +66,7 @@ export default function Contact() {
               </p>
             </div>
             <div className="pt-4 mt-4 border-t border-zinc-100 dark:border-white/[0.05] flex items-center justify-between text-xs font-mono text-zinc-500">
-              <span>tel:+91XXXXXXXXXX</span>
+              <span>+918927227071</span>
               <span className="text-sky-600 dark:text-sky-400 opacity-0 group-hover:opacity-100 transition-opacity font-medium">
                 Call &rarr;
               </span>
@@ -94,18 +94,18 @@ export default function Contact() {
                 Email
               </h3>
               <a
-                href="mailto:sayon@example.com"
+                href="mailto:sayonghosh8768@gmail.com"
                 className="text-base sm:text-lg font-mono font-medium text-zinc-900 dark:text-zinc-100 hover:text-sky-600 dark:hover:text-sky-300 transition-colors block break-all"
-                aria-label="Send email to sayon@example.com"
+                aria-label="Send email to sayonghosh8768@gmail.com"
               >
-                sayonghosh8768@gmaill.com
+                sayonghosh8768@gmail.com
               </a>
             </div>
             <div className="pt-4 mt-4 border-t border-zinc-100 dark:border-white/[0.05] flex items-center justify-between text-xs font-mono text-zinc-500">
-              <span>mailto:sayon@example.com</span>
+              <span>sayonghosh8768@gmail.com</span>
               <a
-                href="mailto:sayon@example.com"
-                className="text-sky-600 dark:text-sky-400 hover:underline font-medium"
+                href="mailto:sayonghosh8768@gmail.com"
+                className="text-sky-600 dark:text-sky-400 opacity-0 group-hover:opacity-100 transition-opacity hover:underline font-medium"
               >
                 Send Email &rarr;
               </a>
@@ -131,7 +131,7 @@ export default function Contact() {
               </p>
             </div>
             <div className="pt-4 mt-4 border-t border-zinc-100 dark:border-white/[0.05] flex items-center justify-between text-xs font-mono text-zinc-500">
-              <span>Timezone: IST (UTC+5:30)</span>
+              <span></span>
               <span className="text-emerald-600 dark:text-emerald-400 flex items-center gap-1 font-medium">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400"></span>
                 Open to work
